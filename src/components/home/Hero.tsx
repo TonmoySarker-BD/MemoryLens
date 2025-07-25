@@ -36,7 +36,7 @@ const Hero: React.FC = () => {
                         className="object-cover"
                         priority={idx === 0}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-r from-blue-900/70 via-purple-900/50 to-pink-900/50" />
+                    <div className="absolute inset-0 bg-gradient-to-b from-blue-900/70 to-pink-500/30" />
                 </div>
             ))}
 
