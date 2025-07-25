@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📸 Sritir Patay – Bangladeshi Event Photography & Videography Platform
 
-## Getting Started
+**Sritir Patay** is a modern and culturally-rich web platform that connects clients with top-rated Bangladeshi photographers and videographers for weddings, birthdays, corporate events, and more. Built with Next.js, TypeScript, Tailwind CSS, Redux Toolkit, and MongoDB, it offers a seamless and elegant experience for both clients and professionals.
 
-First, run the development server:
+## 🌐 Live Demo
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+🔗 [Coming Soon]
+
+---
+
+## 🚀 Features
+
+### 🌟 General
+- Dynamic homepage with search and featured professionals
+- Explore page with filters (location, event type, rating, etc.)
+- Beautiful professional profiles with galleries and reviews
+- SEO-optimized blogs & photo galleries
+
+### 🧑‍💼 Clients
+- Register, browse, and book professionals
+- Leave ratings and reviews after booking
+- Manage bookings and favorites from dashboard
+
+### 📷 Professionals
+- Sign up and list services
+- Upload portfolio photos
+- Accept or decline bookings
+- Manage availability calendar
+
+### 👑 Admin
+- Approve professional profiles
+- Monitor bookings, users, and feedback
+- Moderate reviews and portfolios
+
+### 🔒 Authentication
+- Email/password login (Firebase/NextAuth)
+- Role-based access: Client, Pro, Admin
+
+### 💰 (Optional)
+- Stripe integration for service payments
+- Booking QR codes and invoices
+
+---
+
+## 💻 Tech Stack
+
+| Technology | Description |
+|------------|-------------|
+| Next.js | React-based full-stack framework |
+| TypeScript | Static typing for better dev experience |
+| Tailwind CSS | Utility-first CSS for fast UI styling |
+| Redux Toolkit | State management |
+| MongoDB | NoSQL database for scalable data |
+| Cloudinary | Image storage and optimization |
+| Framer Motion | UI animations |
+| Firebase / NextAuth | Authentication |
+| SweetAlert2 | Elegant alert popups |
+| Stripe | (Optional) Payment integration |
+
+---
+
+## 🗂 Folder Structure
+```
+/app
+  /explore
+  /dashboard
+  /profile/[id]
+  /book/[id]
+  /api
+/components
+/constants
+/lib
+/hooks
+/store
+/public
+/styles
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📸 Screenshots
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Coming soon…
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🧪 Development
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+### Requirements
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- Node.js ≥ 18
+- MongoDB Atlas 
+- Vercel CLI (optional)
 
-## Deploy on Vercel
+### Getting Started
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+```bash
+git clone 
+cd sritir-patay
+npm install
+npm run dev
+```
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Create a `.env.local` file with:
+
+```env
+MONGODB_URI=your_mongodb_uri
+NEXTAUTH_SECRET=your_secret
+CLOUDINARY_URL=your_cloudinary_url
+```
+
+---
+
+## 📍 Roadmap
+
+- [x] Booking system
+- [x] Professional dashboard
+- [ ] Live chat
+- [ ] Mobile app version
+- [ ] AI-based photographer recommendations
+
+---
+
+## 🤝 Contributing
+
+PRs are welcome! If you're a Bangladeshi designer or developer, feel free to reach out!
+
+---
+
+## 📃 License
+
+MIT License
